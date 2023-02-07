@@ -1,13 +1,3 @@
-/**
- * @name Txf8
- * @author ClearVision Team
- * @version 6.3.0
- * @description Highly customizable and beautiful theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite 7pNUC9C
-*/
-
 @import url('https://clearvision.gitlab.io/v6/main.css');
 
 :root {
@@ -16,7 +6,7 @@
   --success-color: #3F51B5;
   --danger-color: #FF0000;
   --url-color: var(--main-color);
-  --background-image: url('https://www.dropbox.com/s/wu469mu28wggrd5/3767436_-_Ori_Ori_and_the_Blind_Forest-gigapixel-art-scale-1_33x.jpeg?raw=1');
+  --background-image: url('https://www.dropbox.com/s/12ssliplsdrp7uy/3767436%20-%20Ori%20Ori_and_the_Blind_Forest%20Photonoko-gigapixel-art-scale-4_00x.jpg?raw=1');
   --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
