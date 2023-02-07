@@ -30,12 +30,12 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 0px;
-  --user-modal-image: url('https://i.imgur.com/CGl3kHD.jpg');
-  --user-modal-position: Bottom center;
-  --user-modal-size: 100%;
+  --user-modal-image: url('https://www.dropbox.com/s/jhzw3i21crx1o0p/e31dcb3a15455ae55b43e4cbafaab4b4-gigapixel-art-scale-6_00x.jpeg?raw=1');
+  --user-modal-position: center;
+  --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: scroll;
-  --user-modal-brightness: 97%;
+  --user-modal-brightness: 100%;
   --user-modal-contrast: 100%;
   --user-modal-saturation: 100%;
   --user-modal-grayscale: 0%;
