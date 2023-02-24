@@ -18,13 +18,13 @@
   --danger-color: #982929;
   --url-color: var(--main-color);
   --background-image: url('https://media.discordapp.net/attachments/787384910426931240/1078775386508374026/ktT0sDJ.gif');
-  --background-shading: 1%;
+  --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
   --background-brightness: 150%;
-  --background-contrast: 0%;
+  --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
