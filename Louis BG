@@ -24,8 +24,8 @@
   --background-repeat: no-repeat;
   --background-attachment: fixed;
   --background-brightness: 130%;
-  --background-contrast: 110%;
-  --background-saturation: 110%;
+  --background-contrast: 10%;
+  --background-saturation: 10%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
