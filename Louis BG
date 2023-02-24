@@ -18,7 +18,7 @@
   --danger-color: #982929;
   --url-color: var(--main-color);
   --background-image: url('https://media.discordapp.net/attachments/787384910426931240/1078775386508374026/ktT0sDJ.gif');
-  --background-shading: 0%;
+  --background-shading: 1%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
