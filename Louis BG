@@ -12,24 +12,24 @@
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
 :root {
-  --main-color: #2780e6;
-  --hover-color: #1e63b3;
+  --main-color: #FFBF00;
+  --hover-color: #8F8100;
   --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
   --background-image: url('https://media.discordapp.net/attachments/787384910426931240/1078775386508374026/ktT0sDJ.gif');
-  --background-shading: 100%;
+  --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
   --background-attachment: fixed;
-  --background-brightness: 130%;
+  --background-brightness: 100%;
   --background-contrast: 100%;
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
   --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
+  --background-overlay: rgb(0,0,0,0.6);
   --user-popout-image: url('https://www.dropbox.com/s/67zujl1q8y8znjo/42D41310-3A6F-48B8-9D90-E1C61E2B83BA.jpg?raw=1');
   --user-popout-position: center;
   --user-popout-size: cover;
@@ -52,7 +52,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 0px;
-  --home-icon: url('');
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
   --home-position: center;
   --home-size: 80px;
   --channel-unread: var(--main-color);
