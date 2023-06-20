@@ -19,7 +19,7 @@
   --background-image: url('https://www.dropbox.com/s/kr8r9ac4glwva9c/SPOILER_IMG_9250~2-gigapixel-low_res-scale-6_00x.jpg?raw=1');
   --background-image-blur: 0px;
   --background-image-size: cover;
-  --background-image-position: top left;
+  --background-image-position: center left;
   --popout-image: url('https://www.dropbox.com/s/y6im6oc2jghluwk/1fb55b85332d08eaf64dce72313c22cc2.png?raw=1');
   --popout-image-blur: 0px;
   --popout-image-size: cover;
@@ -44,7 +44,7 @@
   --tint-colour: 255,51,159;
   --tint-brightness: 0;
   --font: gg sans;
-  --window-padding: 0px;
+  --window-padding: 10px;
   --window-roundness: 7px;
   --update-notice-1: none;
   --rs-small-spacing: 0px;
