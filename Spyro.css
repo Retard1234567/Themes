@@ -18,7 +18,7 @@
     --danger-color: #982929;
     --url-color: var(--main-color);
     --background-image: url('https://www.dropbox.com/s/ujpu76d2bfvxyqq/image.jpg?raw=1');
-    --background-shading: 10%;
+    --background-shading: 100%;
     --background-position: center;
     --background-size: cover;
     --background-repeat: no-repeat;
