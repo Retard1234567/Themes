@@ -1,88 +1,65 @@
 /**
- * @name Spyro
- * @author ClearVision Team
- * @version 6.3.0
- * @description Highly customizable and beautiful theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
- * @website https://clearvision.github.io
- * @invite 7pNUC9C
- * @BDEditor Clear Vision
+ * @name Spyro2
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
 */
 
-@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
 :root {
-  --main-color: #2780e6;
-  --hover-color: #1e63b3;
-  --success-color: #43b581;
-  --danger-color: #982929;
-  --url-color: var(--main-color);
-  --background-image: url('https://www.dropbox.com/s/ujpu76d2bfvxyqq/image.jpg?raw=1');
-  --background-shading: 100%;
-  --background-position: center;
-  --background-size: cover;
-  --background-repeat: no-repeat;
-  --background-attachment: fixed;
-  --background-brightness: 130%;
-  --background-contrast: 110%;
-  --background-saturation: 110%;
-  --background-grayscale: 0%;
-  --background-invert: 0%;
-  --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://www.dropbox.com/s/fu91nila5mce4d6/69aff7428a975a3423ed70c03e9af480.png?raw=1');
-  --user-popout-position: center;
-  --user-popout-size: cover;
-  --user-popout-repeat: no-repeat;
-  --user-popout-attachment: scroll;
-  --user-popout-brightness: 100%;
-  --user-popout-contrast: 100%;
-  --user-popout-saturation: 100%;
-  --user-popout-grayscale: 0%;
-  --user-popout-invert: 0%;
-  --user-popout-blur: 0px;
-  --user-modal-image: url('https://www.dropbox.com/s/aa4l7qwvykl98s2/7ee366ad37ecd10595c2b583cf4fb38e.png?raw=1');
-  --user-modal-position: center;
-  --user-modal-size: cover;
-  --user-modal-repeat: no-repeat;
-  --user-modal-attachment: scroll;
-  --user-modal-brightness: 100%;
-  --user-modal-contrast: 100%;
-  --user-modal-saturation: 100%;
-  --user-modal-grayscale: 0%;
-  --user-modal-invert: 0%;
-  --user-modal-blur: 0px;
-  --home-icon: url('');
-  --home-position: center;
-  --home-size: 80px;
-  --channel-unread: var(--main-color);
-  --channel-color: rgba(255,255,255,0.3);
-  --muted-color: rgba(255,255,255,0.1);
-  --online-color: #43b581;
-  --idle-color: #faa61a;
-  --dnd-color: #982929;
-  --streaming-color: #593695;
-  --offline-color: #808080;
-  --main-font: Whitney;
-  --code-font: Consolas;
-  --channels-width: 220px;
-  --members-width: 240px;
-  --backdrop-overlay: rgba(0,0,0,0.8);
-  --backdrop-image: var(--background-image);
-  --backdrop-position: var(--background-position);
-  --backdrop-size: var(--background-size);
-  --backdrop-repeat: var(--background-repeat);
-  --backdrop-attachment: var(--background-attachment);
-  --backdrop-brightness: var(--background-brightness);
-  --backdrop-contrast: var(--background-contrast);
-  --backdrop-saturation: var(--background-saturation);
-  --backdrop-invert: var(--background-invert);
-  --backdrop-grayscale: var(--background-grayscale);
-  --backdrop-sepia: var(--background-sepia);
-  --backdrop-blur: var(--background-blur);
-  --bd-blue: var(--main-color);
-  --bd-blue-hover: var(--hover-color);
-  --bd-blue-active: var(--hover-color);
+  --background-image: url('https://www.dropbox.com/s/kr8r9ac4glwva9c/SPOILER_IMG_9250~2-gigapixel-low_res-scale-6_00x.jpg?raw=1');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: top left;
+  --popout-image: url('https://www.dropbox.com/s/y6im6oc2jghluwk/1fb55b85332d08eaf64dce72313c22cc2.png?raw=1');
+  --popout-image-blur: 0px;
+  --popout-image-size: cover;
+  --popout-image-position: top center;
+  --overlay-image: url('https://www.dropbox.com/s/fu91nila5mce4d6/69aff7428a975a3423ed70c03e9af480.png?raw=1');
+  --overlay-image-blur: 0px;
+  --overlay-image-size: cover;
+  --overlay-image-position: top center;
+  --home-button-image: url('https://www.dropbox.com/s/aa4l7qwvykl98s2/7ee366ad37ecd10595c2b583cf4fb38e.png?raw=1');
+  --home-button-size: 100%;
+  --home-button-position: center;
+  --serverlist-brightness: 0.3;
+  --left-brightness: 0.52;
+  --middle-brightness: 0.28;
+  --right-brightness: 0.24;
+  --overlay-brightness: 0.32;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: gg sans;
+  --window-padding: 0px;
+  --window-roundness: 7px;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 5px;
+  --rs-large-width: 3px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #00FF8B;
+  --rs-idle-color: #FFBF00;
+  --rs-dnd-color: #FF0000;
+  --rs-offline-color: #000000;
+  --rs-streaming-color: #5E00FF;
+  --rs-phone-visible: block;
 }
 
 /* Any custom CSS below here */
