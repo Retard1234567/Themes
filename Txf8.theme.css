@@ -1,4 +1,4 @@
-@import url('https://clearvision.gitlab.io/v6/main.css');
+@import url('https://raw.githubusercontent.com/ClearVision/ClearVision-v7/refs/heads/master/ClearVision-v7.theme.css');
 
 :root {
   --main-color: #009688;
@@ -19,7 +19,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://i.imgur.com/BPcSlRZ.gif');
+  --user-popout-image: url('https://i.imgur.com/srmwo2e.gif');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
